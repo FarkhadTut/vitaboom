@@ -1,0 +1,8 @@
+Django==4.0.4
+django_nested_admin==3.4.0
+numpy==1.22.1
+openpyxl==3.0.9
+pandas==1.4.0
+python_telegram_bot==13.11
+requests==2.27.1
+telegram==0.0.1
