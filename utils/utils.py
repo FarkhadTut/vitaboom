@@ -1,14 +1,8 @@
-from tkinter import image_names
 import requests
 import os 
 from database.connector import con
 import pandas as pd
 from datetime import datetime, timedelta
-from numpy import isnan
-from openpyxl import Workbook
-from openpyxl.drawing.image import Image
-from openpyxl.utils import get_column_letter
-import glob
 import os 
 
 
