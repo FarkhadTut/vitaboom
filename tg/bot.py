@@ -1,17 +1,11 @@
-from doctest import REPORT_UDIFF
-from email import message
-from sqlite3 import Cursor
-from sre_constants import SUCCESS
-from turtle import update
-from django.http import QueryDict
-from numpy import identity
-from requests import options
+
+
 import telegram
 import logging
 from telegram.ext import Updater, ConversationHandler, MessageHandler, CommandHandler, Filters, CallbackQueryHandler, CallbackContext
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove, Location, Contact, InlineKeyboardMarkup
 from datetime import datetime
-from typing import Dict, List
+from typing import  List
 from utils.utils import download_image, intersection, get_report, il_count
 from database.updater import admin_update, upload_results, register_user
 from database.connector import con
